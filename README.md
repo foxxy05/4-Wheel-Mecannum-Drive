@@ -1,5 +1,5 @@
 # 🤖 4-Wheel Mecanum Drive System  
-*A Complete Implementation Guide – by Automatons Electronics Team*
+*A Complete Implementation Guide*
 
 ---
 
@@ -371,7 +371,7 @@ Maintained with pride by the **Automatons Electronics Division** 💡
 Use, modify, and share responsibly.
 
 **License:** MIT
-**Author:** [Automatons PCCOE – Electronics Team]
+**Author:** Atreya Rahegaonkar
 **Last Updated:** October 2025
 
 ---
