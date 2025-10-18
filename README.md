@@ -371,7 +371,7 @@ Maintained with pride by the **Automatons Electronics Division** 💡
 Use, modify, and share responsibly.
 
 **License:** MIT
-**Author:** Atreya Rahegaonkar
+**Author:** [Atreya Rahegaonkar]
 **Last Updated:** October 2025
 
 ---
