@@ -366,8 +366,6 @@ VyL = -VxG * sinθ + VyG * cosθ
 ---
 
 ## 15. Maintainers & License
-
-Maintained with pride by the **Automatons Electronics Division** 💡
 Use, modify, and share responsibly.
 
 **License:** MIT
