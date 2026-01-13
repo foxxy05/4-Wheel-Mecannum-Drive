@@ -28,7 +28,7 @@ void loop() {
   Serial2.write((uint8_t*)data, 4); // Send all 4 bytes
   Serial2.write(0xFE);              // End marker
 
-  // printPS();
+  printPS();
   // delay(10);
 }
 
@@ -54,18 +54,18 @@ void receivePS() {
   }
 }
 
-// void printPS() {
-//   Serial.print("LX : ");
-//   Serial.print(data[0]);
-//   Serial.print("   ||    LY : ");
-//   Serial.print(data[1]);
-//   Serial.print("   ||   L2 : ");
-//   Serial.print(data[2]);
-//   // Serial.print(l2);
-//   Serial.print("   ||   R2 : ");
-//   Serial.println(data[3]);
-//   // Serial.println(r2);
+void printPS() {
+  Serial.print("LX : ");
+  Serial.print(data[0]);
+  Serial.print("   ||    LY : ");
+  Serial.print(data[1]);
+  Serial.print("   ||   L2 : ");
+  Serial.print(data[2]);
+  // Serial.print(l2);
+  Serial.print("   ||   R2 : ");
+  Serial.println(data[3]);
+  // Serial.println(r2);
 
-//   // Serial.print("   ||   Button : ");
-//   // Serial.println(data[4]);
-// }
+  // Serial.print("   ||   Button : ");
+  // Serial.println(data[4]);
+}
